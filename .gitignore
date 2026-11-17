@@ -1,0 +1,30 @@
+# Keil build outputs
+Watch/MDK-ARM/Watch/
+Watch/MDK-ARM/RTE/
+Watch/MDK-ARM/DebugConfig/
+Watch/MDK-ARM/*.uvguix.*
+Watch/MDK-ARM/*.uvoptx
+Watch/MDK-ARM/*.dep
+Watch/MDK-ARM/*.lnp
+Watch/MDK-ARM/*.map
+Watch/MDK-ARM/*.htm
+Watch/MDK-ARM/*.lst
+Watch/MDK-ARM/*.hex
+Watch/MDK-ARM/*.axf
+Watch/MDK-ARM/*.o
+Watch/MDK-ARM/*.d
+Watch/MDK-ARM/*.crf
+Watch/MDK-ARM/*.iex
+Watch/MDK-ARM/*.sct
+Watch/MDK-ARM/build_log.txt
+Watch/MDK-ARM/JLinkLog.txt
+
+# CubeMX cache
+Watch/.mxproject
+
+# Temporary report build files
+_report_build/
+
+# OS metadata
+Thumbs.db
+desktop.ini
