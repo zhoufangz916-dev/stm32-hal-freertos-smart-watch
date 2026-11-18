@@ -8,6 +8,16 @@
 
 ---
 
+## 演示
+
+![手表演示](docs/demo.gif)
+
+> 16 秒实拍：时钟界面、图标菜单、秒表、MPU6050 水平仪和小恐龙游戏。
+
+[查看完整视频（MP4）](docs/demo.mp4)
+
+---
+
 ## 功能一览
 
 | 功能 | 说明 |
@@ -96,6 +106,7 @@ FreeRTOS 堆 `configTOTAL_HEAP_SIZE` 为 12288 字节，节拍 1000Hz。
 | `Watch/Middlewares/` | FreeRTOS 内核与 CMSIS-RTOS2（第三方） |
 | `Watch/MDK-ARM/` | Keil 工程，打开 `Watch.uvprojx` |
 | `Watch/Watch.ioc` | STM32CubeMX 工程配置 |
+| `docs/` | 演示 GIF、完整 MP4 和封面图 |
 | `基于STM32 HAL库和FreeRTOS的手表项目.pdf` | 项目报告，含原理、实现与调试记录 |
 
 > Keil 的编译产物（`Watch/MDK-ARM/Watch/`）、`*.uvoptx`、`*.uvguix.*`、`build_log.txt`、`.mxproject` 等已通过 `.gitignore` 排除。
